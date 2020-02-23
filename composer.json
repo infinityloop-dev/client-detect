@@ -1,11 +1,10 @@
 {
-	"name"			: "ipub/mobile-detect",
+	"name"			: "infinityloop-dev/client-detect",
 	"type"			: "library",
 	"description"	: "Extension for detecting mobile devices, managing mobile view types, redirect to mobile version for Nette Framework",
 	"keywords"		: ["nette", "mobile", "mobile detect", "mobile view managing", "mobile redirect", "ipub", "ipublikuj", "framework", "tools"],
-	"homepage"		: "https://github.com/iPublikuj/mobile-detect",
+	"homepage"		: "https://github.com/infinityloop-dev/client-detect",
 	"license"		: ["GPL-2.0", "GPL-3.0"],
-
 	"authors": [
 		{
 			"name"		: "iPublikuj:cms",
@@ -13,12 +12,6 @@
 			"homepage"	: "https://www.ipublikuj.eu/"
 		}
 	],
-
-	"support":{
-		"email"		:"support@ipublikuj.eu",
-		"issues"	:"https://github.com/iPublikuj/mobile-detect/issues"
-	},
-
 	"extra": {
 		"ipub"	: {
 			"configuration" : {
@@ -55,32 +48,24 @@
 			}
 		}
 	},
-
-	"require": {
-		"php"	: ">=7.2.0",
-
-		"nette/application"	: "~3.0",
-		"nette/di"			: "~3.0",
-		"nette/http"		: "~3.0",
-		"nette/utils"		: "~3.0",
-
-		"latte/latte"	: "~2.5",
-
-		"jenssegers/agent"	: "~2.5"
-	},
-
-	"require-dev": {
-		"nette/bootstrap"		: "~3.0",
-		"nette/mail"			: "~3.0",
-		"nette/robot-loader"	: "~3.0",
-		"nette/safe-stream"		: "~2.4",
-		"nette/tester"			: "~2.3",
-
-		"tracy/tracy"	: "~2.6",
-
-		"pds/skeleton"	: "~1.0"
-	},
-
+    "require": {
+        "php"                   : ">=7.2.0",
+        "nette/application"     : "~3.0",
+        "nette/di"              : "~3.0",
+        "nette/http"            : "~3.0",
+        "nette/utils"           : "~3.0",
+        "latte/latte"           : "~2.5",
+        "jenssegers/agent"      : "~2.5"
+    },
+    "require-dev": {
+        "nette/bootstrap"       : "~3.0",
+        "nette/mail"            : "~3.0",
+        "nette/robot-loader"    : "~3.0",
+        "nette/safe-stream"     : "~2.4",
+        "nette/tester"          : "~2.3",
+        "tracy/tracy"           : "~2.6",
+        "pds/skeleton"          : "~1.0"
+    },
 	"autoload": {
 		"psr-0": {
 			"IPub\\MobileDetect\\": "src/"
